@@ -9,7 +9,7 @@ Source - Fake and Real News Dataset - Kaggle (https://www.kaggle.com/datasets/cl
 The dataset contains two classes:
 
   - Real news articles from verified sources
-  - 
+    
   - Fake news articles collected from suspicious or unreliable websites
 
  Technologies Used -
