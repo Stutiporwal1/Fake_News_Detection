@@ -25,8 +25,11 @@ Vectorization with TF-IDF (Term Frequency-Inverse Document Frequency)
 File Structure -
 Fake_News_Detection
 fake-news-with-tf-idf-0-99385.ipynb           # Main notebook with preprocessing and model
+
 Comparative_Analysis(Model_Accuracy).ipynb    # Comparison of TF-IDF + Linear SVC with machine learning models (Logistic Regression, KNN, Random Forest) 
+
 README.md                                     # Project documentation
+
 LICENSE                                       # MIT License
 
 
