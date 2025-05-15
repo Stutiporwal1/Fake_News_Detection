@@ -1,5 +1,33 @@
-This project aims to build a machine learning model that can accurately classify news articles as either real or fake, helping to combat misinformation. The dataset used for this project is publicly available on Kaggle: https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+**Fake News Detection using Natural Language Processing**
 
-To process and understand the text data, I used Natural Language Processing (NLP) techniques including text cleaning, stopword removal, and lemmatization with the help of NLTK and spaCy. For feature extraction, I implemented the TF-IDF (Term Frequency-Inverse Document Frequency) algorithm, which helps highlight the most relevant words in a document relative to the entire dataset.
+Project Overview - This project presents a NLP pipeline to classify news articles as real or fake, using Natural Language Processing (NLP) techniques. The goal is to combat misinformation and improve media literacy.
 
-For classification, I selected the Linear Support Vector Classifier (Linear SVC) model due to its effectiveness in high-dimensional spaces like text classification. The model was trained on the cleaned and vectorized data and achieved an impressive accuracy of 99.358%.
+Dataset -
+
+Source - Fake and Real News Dataset - Kaggle (https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+The dataset contains two classes:
+  - Real news articles from verified sources
+  - Fake news articles collected from suspicious or unreliable websites
+
+ Technologies Used -
+
+Languages : Python (Run on Google Colab)
+Libraries : pandas, numpy, nltk, spaCy, matplotlib, seaborn
+Model Evaluation : Accuracy, Confusion Matrix, Precision, Recall
+
+Text Preprocessing and Feature Engineering -
+
+Text Cleaning  
+Stopword Removal  
+Lemmatization (using spaCy)  
+Vectorization with TF-IDF (Term Frequency-Inverse Document Frequency)
+
+File Structure -
+Fake_News_Detection
+fake-news-with-tf-idf-0-99385.ipynb           # Main notebook with preprocessing and model
+Comparative_Analysis(Model_Accuracy).ipynb    # Comparison of TF-IDF + Linear SVC with machine learning models (Logistic Regression, KNN, Random Forest) 
+README.md                                     # Project documentation
+LICENSE                                       # MIT License
+
+
+**Linear SVC with TF-IDF 99.35% performed the best due to its capability in handling high-dimensional sparse data efficiently.**
