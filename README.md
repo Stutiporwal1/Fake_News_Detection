@@ -1,6 +1,8 @@
 ## **Fake News Detection using Natural Language Processing**
 
-### Project Overview - This project presents a NLP pipeline to classify news articles as real or fake, using Natural Language Processing (NLP) techniques. The goal is to combat misinformation and improve media literacy.
+### Project Overview - 
+
+This project presents a NLP pipeline to classify news articles as real or fake, using Natural Language Processing (NLP) techniques. The goal is to combat misinformation and improve media literacy.
 
 ### Dataset -
 
